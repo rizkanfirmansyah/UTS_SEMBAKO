@@ -67,7 +67,7 @@
                 </ul>
             </nav><!-- .navbar -->
 
-            <?php if ($uri_segments[2] !== 'login.php') : ?>
+            <?php if (empty($_SESSION['status'])) : ?>
                 <a class="btn-getstarted scrollto" href="login.php">Login</a>
             <?php else : ?>
                 <a class="btn-getstarted scrollto" href="action/logout.php">Logout</a>
