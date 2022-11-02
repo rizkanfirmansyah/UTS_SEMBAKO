@@ -51,18 +51,23 @@
 
                     ?>
                     <?php if ($uri_segments[2] == 'index.php' || $uri_segments[2] === '') : ?>
-                        <li><a class="nav-link scrollto" href="index.html#body">Home</a></li>
-                        <li><a class="nav-link scrollto" href="index.html#table">Table</a></li>
-                        <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="index.php#body">Home</a></li>
+                        <li><a class="nav-link scrollto" href="index.php#table">Table</a></li>
+                        <li><a class="nav-link scrollto" href="index.php#about">About</a></li>
+
+                    <?php elseif ($uri_segments[2] == 'login.php') : ?>
+                        <li><a class="nav-link scrollto" href="index.php">Home</a></li>
 
                     <?php else : ?>
-                        <li><a class="nav-link scrollto" href="#mhs">Data Semabko</a></li>
+                        <li><a class="nav-link scrollto" href="#mhs">Data Sembako</a></li>
                         <li><a class="nav-link scrollto" href="#dosen">Data Tipe Sembako</a></li>
                         <li><a class="nav-link scrollto" href="#mk">Data Customer</a></li>
                     <?php endif; ?>
                 </ul>
             </nav><!-- .navbar -->
 
-            <a class="btn-getstarted scrollto" href="">Login</a>
+            <?php if ($uri_segments[2] !== 'login.php') : ?>
+                <a class="btn-getstarted scrollto" href="login.php">Login</a>
+            <?php endif; ?>
         </div>
     </header><!-- End Header -->
