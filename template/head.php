@@ -46,6 +46,7 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <?php
+                    session_start();
                     $uri_path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
                     $uri_segments = explode('/', $uri_path);
 
@@ -68,6 +69,8 @@
 
             <?php if ($uri_segments[2] !== 'login.php') : ?>
                 <a class="btn-getstarted scrollto" href="login.php">Login</a>
+            <?php else : ?>
+                <a class="btn-getstarted scrollto" href="action/logout.php">Logout</a>
             <?php endif; ?>
         </div>
     </header><!-- End Header -->

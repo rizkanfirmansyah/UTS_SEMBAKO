@@ -3,7 +3,7 @@
 <section id="hero-fullscreen" class="hero-fullscreen d-flex align-items-center">
     <div class="container d-flex flex-column align-items-center position-relative" data-aos="zoom-out">
         <h2>Welcome to <span>Sembakoin</span></h2>
-        <form action="forms/contact.php" method="post" class="row">
+        <form action="action/login.php" method="post" class="row">
             <div class="form-group mt-3">
                 <input type="text" class="form-control py-3 px-4" name="username" id="username" placeholder="username" required>
             </div>
