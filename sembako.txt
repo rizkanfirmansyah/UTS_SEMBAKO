@@ -1,0 +1,38 @@
+===Basis data sembako
+
+== Struktur dari tabel customer
+
+|------
+|Kolom|Jenis|Tak Ternilai|Bawaan
+|------
+|//**id**//|int(11)|Tidak|
+|name|varchar(255)|Tidak|
+|address|text|Tidak|
+|phone|char(25)|Tidak|
+|npm|char(7)|Ya|NULL
+== Dumping data untuk tabel customer
+
+== Struktur dari tabel groceries
+
+|------
+|Kolom|Jenis|Tak Ternilai|Bawaan
+|------
+|//**id**//|int(11)|Tidak|
+|name|varchar(255)|Tidak|
+|description|text|Tidak|
+|type_id|int(11)|Tidak|
+|price|int(11)|Tidak|
+|unit|char(5)|Tidak|
+|photo|varchar(255)|Tidak|
+== Dumping data untuk tabel groceries
+
+== Struktur dari tabel grocery_type
+
+|------
+|Kolom|Jenis|Tak Ternilai|Bawaan
+|------
+|//**id**//|int(11)|Tidak|
+|name|varchar(255)|Tidak|
+|description|text|Ya|NULL
+== Dumping data untuk tabel grocery_type
+
