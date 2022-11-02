@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="description">
     <meta content="" name="keywords">
-    <title>Input Data Mahasiswa</title>
+    <title>Toko Sembako</title>
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -40,7 +40,7 @@
             <a href="index.php" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
-                <h1>Akademik<span>.</span></h1>
+                <h1>Sembakoin<span>.</span></h1>
             </a>
 
             <nav id="navbar" class="navbar">
@@ -56,9 +56,9 @@
                         <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
 
                     <?php else : ?>
-                        <li><a class="nav-link scrollto" href="#mhs">Data Mahasiswa</a></li>
-                        <li><a class="nav-link scrollto" href="#dosen">Data Dosen</a></li>
-                        <li><a class="nav-link scrollto" href="#mk">Data Mata Kuliah</a></li>
+                        <li><a class="nav-link scrollto" href="#mhs">Data Semabko</a></li>
+                        <li><a class="nav-link scrollto" href="#dosen">Data Tipe Sembako</a></li>
+                        <li><a class="nav-link scrollto" href="#mk">Data Customer</a></li>
                     <?php endif; ?>
                 </ul>
             </nav><!-- .navbar -->

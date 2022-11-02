@@ -4,7 +4,7 @@
 <section id="hero-animated" class="hero-animated d-flex align-items-center">
   <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
     <img src="assets/img/hero-carousel/hero-carousel-3.svg" class="img-fluid animated">
-    <h2>Selamat Datang <span>Di Akademik</span></h2>
+    <h2>Selamat Datang <span>Di Toko Sembako</span></h2>
     <p>Tugas UTS Membuat CRUD dan Sistem Login</p>
     <div class="d-flex">
       <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
@@ -24,7 +24,7 @@
           <div class="service-item position-relative">
             <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
             <h4><a href="input-mhs.php" class="stretched-link">Input Data</a></h4>
-            <p>Input Data Mahasiswa, Dosen, Nilai, Mata Kuliah.</p>
+            <p>Input Data Barang, Pelanggan, Suplier Dan Harga Barang.</p>
           </div>
         </div>
 
@@ -32,7 +32,7 @@
           <div class="service-item position-relative">
             <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
             <h4><a href="Input.php" class="stretched-link">Laporan</a></h4>
-            <p>Laporan Mengenai Daftar Nilai Ujian.</p>
+            <p>Laporan Mengenai Daftar Barang.</p>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
     <div class="container">
       <div class="row text-center justify-content-center">
         <div class="col-md-6 ">
-          <h1>Daftar Nilai Ujian</h1>
+          <h1>Daftar Barang Hari Ini</h1>
         </div>
       </div>
       <div class="card">
@@ -54,15 +54,12 @@
           <table class="table table-bordered table-striped">
             <thead>
               <tr>
-                <th scope="col">1</th>
-                <th scope="col">NPM</th>
-                <th scope="col">Nama Mahasiswa</th>
-                <th scope="col">Mata Kuliah</th>
-                <th scope="col">Hadir</th>
-                <th scope="col">Tugas</th>
-                <th scope="col">UTS</th>
-                <th scope="col">UAS</th>
-                <th scope="col">Rata Rata</th>
+                <th scope="col">No Faktur Barang</th>
+                <th scope="col">Nama Barang</th>
+                <th scope="col">Satuan Barang</th>
+                <th scope="col">Tipe Barang</th>
+                <th scope="col">Gambar</th>
+                <th scope="col">Harga Barang</th>
               </tr>
             </thead>
             <tbody>
@@ -73,26 +70,9 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
@@ -106,26 +86,9 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-              </tr>
-              <tr>
-                <th scope="row">1</th>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
@@ -139,6 +102,11 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
+                <td>Test</td>
+                <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
@@ -150,15 +118,17 @@
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
-                <td>Test</td>
               </tr>
               <tr>
                 <th scope="row">1</th>
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+              </tr>
+              <tr>
+                <th scope="row">1</th>
                 <td>Test</td>
                 <td>Test</td>
                 <td>Test</td>

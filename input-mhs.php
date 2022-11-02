@@ -4,7 +4,7 @@
 
 include 'koneksi.php';
 
-$data = mysqli_query($conn, "SELECT * FROM mahasiswa JOIN matakuliah ON mahasiswa.kd_mk=matakuliah.kd_mk");
+// $data = mysqli_query($conn, "SELECT * FROM groceries JOIN matakuliah ON mahasiswa.kd_mk=matakuliah.kd_mk");
 // var_dump($data->fetch_all());
 
 // var_dump($_GET['npm']);
